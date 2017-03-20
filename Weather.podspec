@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Weather"
-  s.version      = "0.1.0"
+  s.version      = "1.0.1"
   s.summary      = "This weather framework provides easy integration with weather service."
 
   # This description is used to generate tags and improve search results.

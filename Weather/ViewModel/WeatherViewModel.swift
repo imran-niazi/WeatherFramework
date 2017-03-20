@@ -11,19 +11,20 @@ import RxSwift  //Reactive Swift allows to do Function Reactive Programming styl
 import Bond //This framework helps in observing and binding
 
 //  Below class has been implemented as Weather View Model and will be responsible for providing weather data to the controller
-class WeatherViewModel
+ public class WeatherViewModel
 {
     //Following variables will be observed by ViewController in order to display change to UI
-    var locationName = Observable("Location")
-    var weatherDescription = Observable("Weather Description")
-    var currentTemp = Observable("--")
-    var humidity = Observable("0.0%")
-    var iconImage = Observable(UIImage())
-    var tempMax = Observable("__")
-    var tempMin = Observable("__")
-    var windSpeed = Observable("0.0 m/s")
-    var errorDescription = Observable("")
+    public var locationName = Observable("Location")
+    public var weatherDescription = Observable("Weather Description")
+    public var currentTemp = Observable("--")
+    public var humidity = Observable("0.0%")
+    public var iconImage = Observable(UIImage())
+    public var tempMax = Observable("__")
+    public var tempMin = Observable("__")
+    public var windSpeed = Observable("0.0 m/s")
+    public var errorDescription = Observable("")
     
+    public init(){}
     /**
      Send request for weather information by city and set properties from data model in case of success
      
