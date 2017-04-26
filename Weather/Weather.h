@@ -15,8 +15,4 @@ FOUNDATION_EXPORT double WeatherVersionNumber;
 FOUNDATION_EXPORT const unsigned char WeatherVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Weather/PublicHeader.h>
-import UIKit
-import RxCocoa //This framework will help us observing Search Bar text
-import RxSwift
-import Bond
 

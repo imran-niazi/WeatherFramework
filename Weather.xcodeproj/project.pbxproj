@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DACFE5C1EB02BE800FCA429 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A1D471E7A5B6B0027F165 /* WeatherViewModel.swift */; };
+		1DACFE5D1EB0427C00FCA429 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A1D4B1E7A5B9F0027F165 /* WeatherData.swift */; };
+		1DACFE5E1EB0428100FCA429 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A1D491E7A5B7E0027F165 /* NetworkManager.swift */; };
 		841A1D481E7A5B6B0027F165 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A1D471E7A5B6B0027F165 /* WeatherViewModel.swift */; };
 		841A1D4A1E7A5B7E0027F165 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A1D491E7A5B7E0027F165 /* NetworkManager.swift */; };
 		841A1D4C1E7A5B9F0027F165 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841A1D4B1E7A5B9F0027F165 /* WeatherData.swift */; };
@@ -355,7 +358,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DACFE5E1EB0428100FCA429 /* NetworkManager.swift in Sources */,
 				84B5DB041E7A552B00EF0417 /* WeatherTests.swift in Sources */,
+				1DACFE5D1EB0427C00FCA429 /* WeatherData.swift in Sources */,
+				1DACFE5C1EB02BE800FCA429 /* WeatherViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

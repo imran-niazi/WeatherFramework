@@ -21,16 +21,35 @@ class WeatherTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testSuccessfulWeatherRequest() {
+        let expect = expectation(description: "Search Successful")
+        let location = "Dallas"
+        NetworkManager.sharedInstance.requestWeatherInfo(withLocation: location, completion: { (weatherData,errorString) in
+            
+            XCTAssertNotNil(weatherData)
+            expect.fulfill()
+        })
+        
+        waitForExpectations(timeout: 10) { (error) in
+            XCTAssertNil(error, "error")
+        }
+        
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testUnsuccessfulWeatherRequest() {
+        
+        let expect = expectation(description: "Search Error")
+        let location = "zx"
+        NetworkManager.sharedInstance.requestWeatherInfo(withLocation: location, completion: { (weatherData,errorString) in
+            
+            XCTAssertNotNil(errorString)
+            expect.fulfill()
+        })
+        
+        waitForExpectations(timeout: 10) { (error) in
+            XCTAssertNil(error, "error")
         }
+        
     }
     
 }
