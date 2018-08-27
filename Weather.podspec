@@ -131,8 +131,8 @@ s.source       = { :git => "https://github.com/imran-niazi/WeatherFramework.git"
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency 'RxSwift',    '~> 3.0'
-  s.dependency 'RxCocoa',    '~> 3.0'
-  s.dependency 'Bond', '~> 6.0'
+  s.dependency 'RxSwift',    '~> 4.2.0'
+  s.dependency 'RxCocoa',    '~> 4.2.0'
+  s.dependency 'Bond', '~> 6.8.3'
 
 end

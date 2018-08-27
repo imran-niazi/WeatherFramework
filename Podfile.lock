@@ -1,33 +1,43 @@
 PODS:
-  - Bond (6.0.4):
-    - Diff (~> 0.4)
-    - ReactiveKit (~> 3.3)
-  - Diff (0.5.0)
-  - ReactiveKit (3.3.1)
-  - RxBlocking (3.3.1):
-    - RxSwift (~> 3.3)
-  - RxCocoa (3.3.1):
-    - RxSwift (~> 3.3)
-  - RxSwift (3.3.1)
-  - RxTest (3.3.1):
-    - RxSwift (~> 3.3)
+  - Bond (6.8.3):
+    - Differ (~> 1.0)
+    - ReactiveKit (~> 3.9)
+  - Differ (1.2.3)
+  - ReactiveKit (3.9.6)
+  - RxBlocking (4.2.0):
+    - RxSwift (~> 4.0)
+  - RxCocoa (4.2.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.2.0)
+  - RxTest (4.2.0):
+    - RxSwift (~> 4.0)
 
 DEPENDENCIES:
-  - Bond (~> 6.0)
-  - RxBlocking (~> 3.0)
-  - RxCocoa (~> 3.0)
-  - RxSwift (~> 3.0)
-  - RxTest (~> 3.0)
+  - Bond (~> 6.8.3)
+  - RxBlocking (~> 4.2.0)
+  - RxCocoa (~> 4.2.0)
+  - RxSwift (~> 4.2.0)
+  - RxTest (~> 4.2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bond
+    - Differ
+    - ReactiveKit
+    - RxBlocking
+    - RxCocoa
+    - RxSwift
+    - RxTest
 
 SPEC CHECKSUMS:
-  Bond: bc982d559e9c7fe30f50c29bbb5396ded9529699
-  Diff: eceb93a3adf508574ba9b8560da185ace83de055
-  ReactiveKit: 27df79c2e2f0771aef1061551fcd7e82b92066e9
-  RxBlocking: c5918ecb86b8c205a8ccc6d1ff2abb338ddc50a0
-  RxCocoa: 7dcb7a1860fc9cd0e23dae67ab105fc2916670b6
-  RxSwift: 8fc9f2de6275a9101d518444e00bf32f1a42caac
-  RxTest: f4e7360033fafa743f2f85097efa958402ed442a
+  Bond: d6d25c0cb90459b9d27197251405c6db254da4cf
+  Differ: 061f3298ea9408494c43b530c44583e555884daf
+  ReactiveKit: 804d3093ad42dee0de19e42d4f7dcae9c14364b0
+  RxBlocking: e339d8a6e752e25ade95ff858466c55436668f59
+  RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
+  RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
+  RxTest: 8da864c0ee47534f586ff18fb0c7e5b2f1fe5023
 
-PODFILE CHECKSUM: 645a0b63f1486e1d09b61ac9c59944256f5eaaaf
+PODFILE CHECKSUM: 9c49b21af5793481b764fb351efdccc6989adde3
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.5.3
