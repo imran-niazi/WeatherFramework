@@ -1,43 +1,48 @@
 PODS:
-  - Bond (6.8.3):
-    - Differ (~> 1.0)
-    - ReactiveKit (~> 3.9)
-  - Differ (1.2.3)
-  - ReactiveKit (3.9.6)
-  - RxBlocking (4.2.0):
-    - RxSwift (~> 4.0)
-  - RxCocoa (4.2.0):
-    - RxSwift (~> 4.0)
-  - RxSwift (4.2.0)
-  - RxTest (4.2.0):
-    - RxSwift (~> 4.0)
+  - Bond (7.8.1):
+    - Differ (~> 1.4)
+    - ReactiveKit (~> 3.14)
+  - Differ (1.4.5)
+  - ReactiveKit (3.17.4)
+  - RxBlocking (6.1.0):
+    - RxSwift (= 6.1.0)
+  - RxCocoa (6.1.0):
+    - RxRelay (= 6.1.0)
+    - RxSwift (= 6.1.0)
+  - RxRelay (6.1.0):
+    - RxSwift (= 6.1.0)
+  - RxSwift (6.1.0)
+  - RxTest (6.1.0):
+    - RxSwift (= 6.1.0)
 
 DEPENDENCIES:
-  - Bond (~> 6.8.3)
-  - RxBlocking (~> 4.2.0)
-  - RxCocoa (~> 4.2.0)
-  - RxSwift (~> 4.2.0)
-  - RxTest (~> 4.2.0)
+  - Bond (~> 7.0)
+  - RxBlocking (~> 6.1.0)
+  - RxCocoa (~> 6.1.0)
+  - RxSwift (~> 6.1.0)
+  - RxTest (~> 6.1.0)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Bond
     - Differ
     - ReactiveKit
     - RxBlocking
     - RxCocoa
+    - RxRelay
     - RxSwift
     - RxTest
 
 SPEC CHECKSUMS:
-  Bond: d6d25c0cb90459b9d27197251405c6db254da4cf
-  Differ: 061f3298ea9408494c43b530c44583e555884daf
-  ReactiveKit: 804d3093ad42dee0de19e42d4f7dcae9c14364b0
-  RxBlocking: e339d8a6e752e25ade95ff858466c55436668f59
-  RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
-  RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
-  RxTest: 8da864c0ee47534f586ff18fb0c7e5b2f1fe5023
+  Bond: 87075c7f20f37ea3e73dc7057fce839787bf46eb
+  Differ: 3b6bd78e2b20cc795d9a86f7641d087524e4273e
+  ReactiveKit: f9f9e079efa39312c597bf1508ef4810d111ce76
+  RxBlocking: 602095fba0bce7b16b56ccec89edf780c248b7d9
+  RxCocoa: 5c51f02d562cbd94629f6c26cf0c80fe4ab8d343
+  RxRelay: 483e1a19fad961b41f0b0c0bee506f46c1ae14fe
+  RxSwift: a834e5c538e89eca0cae86f403f4fbf0336786ce
+  RxTest: 9d26616eaff4a7e75f4ecae9b2c24840f2e8218d
 
-PODFILE CHECKSUM: 9c49b21af5793481b764fb351efdccc6989adde3
+PODFILE CHECKSUM: b09a357be50a0293b267c2f47d25bd80bb23957c
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.10.1

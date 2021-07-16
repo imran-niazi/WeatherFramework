@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Weather"
-  s.version      = "2.0.1"
+  s.version      = "2.0.2"
   s.summary      = "This weather framework provides easy integration with weather service."
 
   # This description is used to generate tags and improve search results.
@@ -132,8 +132,8 @@ s.source       = { :git => "https://github.com/imran-niazi/WeatherFramework.git"
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency 'RxSwift',    '~> 4.2.0'
-  s.dependency 'RxCocoa',    '~> 4.2.0'
-  s.dependency 'Bond', '~> 6.8.3'
+  s.dependency 'RxSwift',    '~> 6.1.0'
+  s.dependency 'RxCocoa',    '~> 6.1.0'
+  s.dependency 'Bond', '~> 7.0'
 
 end
